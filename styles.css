@@ -1,0 +1,48 @@
+*{
+    margin:0px;
+    padding:0px;
+    
+}
+
+
+.upperSection{
+    display:flex;
+    height:50vh;
+    background-color: 	#A9A9A9;
+    padding: 5px 0px;
+    
+}
+.editor-container{
+    flex-grow: 1;
+    margin:0px 8px;
+    
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+.collapse-container{
+    flex-grow:0;
+}
+
+.tab{
+    background-color: #fff;
+    margin:none;
+    padding:none;
+    height:50vh;
+    
+}
+
+.editor-heading-tab{
+ background-color: #606060;  
+ padding:15px 20px;
+ margin-top: 10px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ color:#fff;
+ border-top-left-radius: 0.5rem;
+ border-top-right-radius: 0.5rem;
+}
+.editor-heading-tab button{
+    
+    margin-left: 10px;
+}
